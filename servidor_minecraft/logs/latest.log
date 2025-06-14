@@ -1,13 +1,14 @@
-[11:21:14] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.16.3
-[11:21:14] [main/WARN]: Warnings were found!
+[12:02:59] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.16.3
+[12:02:59] [main/WARN]: Warnings were found!
  - Mod 'Dynamic Lights' (dynamiclights) 1.8.6+mod recommends any version of modmenu, which is missing!
 	 - You should install any version of modmenu for the optimal experience.
  - Mod 'Dynamic Lights' (dynamiclights) 1.8.6+mod recommends any version of modmenu-badges-lib, which is missing!
 	 - You should install any version of modmenu-badges-lib for the optimal experience.
-[11:21:14] [main/INFO]: Loading 66 mods:
+[12:02:59] [main/INFO]: Loading 77 mods:
 	- amplified_nether 1.2.8
 	- balm 21.0.46
 	   \-- kuma_api 21.0.5
+	- biomesoplenty 21.1.0.12
 	- cardinal-components 6.1.2
 	   |-- cardinal-components-base 6.1.2
 	   |-- cardinal-components-block 6.1.2
@@ -73,8 +74,17 @@
 	   \-- fabric-transitive-access-wideners-v1 6.2.0+45b9699719
 	- fabricloader 0.16.3
 	   \-- mixinextras 0.4.1
+	- glitchcore 2.1.0.0
+	   |-- com_electronwill_night-config_core 3.6.7
+	   |-- com_electronwill_night-config_toml 3.6.7
+	   \-- net_jodah_typetools 0.6.3
 	- healingcampfire 6.2
 	- java 21
+	- jei 19.21.2.313
+	- journeymap 1.21.1-6.0.0-beta.41
+	   |-- ar_com_hjg_pngj 2.1.0
+	   |-- commonnetworking 1.0.18-1.21.1
+	   \-- journeymap-api-fabric 2.0.0-1.21.1-SNAPSHOT
 	- just_enough_beacons 1.3.0
 	   \-- mixinextras 0.4.1
 	- midnightlib 1.6.9
@@ -82,85 +92,94 @@
 	- mr_dungeons_andtaverns 1-v4.4.4
 	- simpleresourceloader 1.0.0+1.21.1
 	- stackrefill 4.7
+	- terrablender 4.1.0.8
+	   |-- com_electronwill_night-config_core 3.6.7
+	   \-- com_electronwill_night-config_toml 3.6.7
 	- trashslot 21.1.4
 	- travelersbackpack 10.1.22
-[11:21:14] [main/WARN]: Found 1 non-fabric mod:
+[12:02:59] [main/WARN]: Found 1 non-fabric mod:
 	- advancednetherite-forge-2.2.1-1.21.1.jar
-[11:21:14] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/Minecraft-Sever/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[11:21:15] [main/INFO]: Compatibility level set to JAVA_17
-[11:21:15] [main/INFO]: Compatibility level set to JAVA_21
-[11:21:15] [main/WARN]: Reference map 'trashslot.refmap.json' for trashslot.mixins.json could not be read. If this is a development environment you can ignore this message
-[11:21:15] [main/WARN]: Reference map 'trashslot.refmap.json' for trashslot.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[11:21:15] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[11:21:23] [main/INFO]: Registering packet cerbons_api:multipart_entity_interaction : class com.cerbon.cerbons_api.packet.custom.MultipartEntityInteractionC2SPacket on the: SERVER
-[11:21:23] [main/INFO]: Loading Collective version 8.3.
-[11:21:23] [main/INFO]: [Dynamic Lights] MidnightLib detected!
-[11:21:23] [main/INFO]: [Dynamic Lights] Registering server started event ...
-[11:21:23] [main/INFO]: [Dynamic Lights] Loaded Dynamic Lights by Tschipcraft successfully!
-[11:21:23] [main/ERROR]: No data fixer registered for 
-[11:21:23] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 81000) with the ID 0
-[11:21:23] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 81000) with the ID 1
-[11:21:23] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for block.travelersbackpack.potion_still (Fluid Amount Required: 27000) with the ID 2
-[11:21:23] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:milk for Air (Fluid Amount Required: 81000) with the ID 3
-[11:21:23] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[11:21:24] [main/INFO]: Found new data pack amplified_nether, loading it automatically
-[11:21:24] [main/INFO]: Found new data pack balm, loading it automatically
-[11:21:24] [main/INFO]: Found new data pack collective, loading it automatically
-[11:21:24] [main/INFO]: Found new data pack dynamiclights, loading it automatically
-[11:21:24] [main/INFO]: Found new data pack fabric, loading it automatically
-[11:21:24] [main/INFO]: Found new data pack fabric-convention-tags-v2, loading it automatically
-[11:21:24] [main/INFO]: Found new data pack mr_dungeons_andtaverns, loading it automatically
-[11:21:24] [main/INFO]: Found new data pack travelersbackpack, loading it automatically
-[11:21:25] [main/INFO]: Loaded 1426 recipes
-[11:21:26] [main/ERROR]: Couldn't load advancements: [minecraft:wander_add_map, minecraft:give_quest_trader_trade]
-[11:21:26] [main/INFO]: Loaded 1571 advancements
-[11:21:26] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 1.051 ms
-[11:21:26] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[11:21:26] [Server thread/INFO]: Loading properties
-[11:21:26] [Server thread/INFO]: Default game type: SURVIVAL
-[11:21:26] [Server thread/INFO]: Generating keypair
-[11:21:26] [Server thread/INFO]: Starting Minecraft server on *:25565
-[11:21:26] [Server thread/INFO]: Using epoll channel type
-[11:21:26] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[11:21:26] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[11:21:26] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[11:21:26] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[11:21:26] [Server thread/INFO]: Preparing level "world"
-[11:21:34] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[11:21:34] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[11:21:34] [Worker-Main-3/INFO]: Preparing spawn area: 51%
-[11:21:34] [Server thread/INFO]: Time elapsed: 594 ms
-[11:21:34] [Server thread/INFO]: Done (7.984s)! For help, type "help"
-[11:21:34] [Server thread/INFO]: [Dynamic Lights] Sending global config to world ...
-[11:21:34] [Server thread/INFO]: Created new objective [ts.dl.settings]
-[11:21:46] [Server thread/INFO]: Its_Isaias58[/127.20.176.189:37655] logged in with entity id 61 at (-2.699999988079071, 115.0, 12.688973017083246)
-[11:21:46] [Server thread/INFO]: Loading config from file...
-[11:21:46] [Server thread/INFO]: Its_Isaias58 joined the game
-[11:23:16] [Server thread/INFO]: Its_Isaias58 lost connection: Disconnected
-[11:23:16] [Server thread/INFO]: Its_Isaias58 left the game
-[11:23:16] [Server thread/WARN]: handleDisconnection() called twice
-[11:23:41] [Server thread/INFO]: Its_Isaias58[/127.20.176.189:36955] logged in with entity id 1335 at (-4.140930765279362, 117.0, 8.46147067908472)
-[11:23:41] [Server thread/INFO]: Loading config from file...
-[11:23:41] [Server thread/INFO]: Its_Isaias58 joined the game
-[11:25:04] [Worker-Main-2/ERROR]: Block-attached entity at invalid position: class_2338{x=202, y=47, z=211}
-[11:25:24] [Worker-Main-2/ERROR]: Block-attached entity at invalid position: class_2338{x=216, y=47, z=211}
-[11:25:24] [Server thread/WARN]: Its_Isaias58 moved too quickly! -9.783960503569729,1.0,2.6001550933762942
-[11:25:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6417ms or 128 ticks behind
-[11:26:04] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=217, y=48, z=159}
-[11:26:56] [Server thread/INFO]: Its_Isaias58 lost connection: Timed out
-[11:26:56] [Server thread/INFO]: Its_Isaias58 left the game
-[11:27:13] [Server thread/INFO]: Its_Isaias58[/127.20.176.189:47437] logged in with entity id 4314 at (-59.144805970837226, 119.0, -1.1525776992522538)
-[11:27:13] [Server thread/INFO]: Loading config from file...
-[11:27:13] [Server thread/INFO]: Its_Isaias58 joined the game
-[11:27:53] [Server thread/INFO]: Its_Isaias58 has made the advancement [Stone Age]
-[11:28:52] [Server thread/INFO]: [Its_Isaias58: Stopping the server]
-[11:28:52] [Server thread/INFO]: Stopping server
-[11:28:52] [Server thread/INFO]: Saving players
-[11:28:52] [Server thread/INFO]: Saving worlds
-[11:28:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[11:28:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[11:28:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[11:28:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[11:28:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[11:28:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[11:28:54] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[12:02:59] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/Minecraft-Sever/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[12:02:59] [main/INFO]: Compatibility level set to JAVA_17
+[12:02:59] [main/INFO]: Compatibility level set to JAVA_21
+[12:03:00] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:03:00] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:03:00] [main/WARN]: Reference map 'trashslot.refmap.json' for trashslot.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:03:00] [main/WARN]: Reference map 'trashslot.refmap.json' for trashslot.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:03:00] [main/WARN]: Error loading class: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider (java.lang.ClassNotFoundException: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider)
+[12:03:00] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[12:03:07] [main/INFO]: Registering packet cerbons_api:multipart_entity_interaction : class com.cerbon.cerbons_api.packet.custom.MultipartEntityInteractionC2SPacket on the: SERVER
+[12:03:07] [main/INFO]: Loading Collective version 8.3.
+[12:03:07] [main/INFO]: [Dynamic Lights] MidnightLib detected!
+[12:03:07] [main/INFO]: [Dynamic Lights] Registering server started event ...
+[12:03:07] [main/INFO]: [Dynamic Lights] Loaded Dynamic Lights by Tschipcraft successfully!
+[12:03:08] [main/ERROR]: No data fixer registered for biomesoplenty:boat
+[12:03:08] [main/ERROR]: No data fixer registered for biomesoplenty:chest_boat
+[12:03:08] [main/ERROR]: No data fixer registered for anomaly
+[12:03:08] [main/INFO]: Initializing ServerSide Packet Registries
+[12:03:08] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[12:03:08] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
+[12:03:08] [main/INFO]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[12:03:08] [main/INFO]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[12:03:08] [main/INFO]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[12:03:08] [main/INFO]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[12:03:08] [main/INFO]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[12:03:09] [main/ERROR]: No data fixer registered for 
+[12:03:09] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 81000) with the ID 0
+[12:03:09] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 81000) with the ID 1
+[12:03:09] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for block.travelersbackpack.potion_still (Fluid Amount Required: 27000) with the ID 2
+[12:03:09] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:milk for Air (Fluid Amount Required: 81000) with the ID 3
+[12:03:09] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[12:03:11] [main/INFO]: Loaded 1734 recipes
+[12:03:11] [main/ERROR]: Couldn't load advancements: [minecraft:wander_add_map, minecraft:give_quest_trader_trade]
+[12:03:11] [main/INFO]: Loaded 1881 advancements
+[12:03:13] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[12:03:13] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[12:03:13] [main/INFO]: Applied 0 biome modifications to 0 of 134 new biomes in 1.806 ms
+[12:03:13] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[12:03:13] [Server thread/INFO]: Loading properties
+[12:03:13] [Server thread/INFO]: Default game type: SURVIVAL
+[12:03:13] [Server thread/INFO]: Generating keypair
+[12:03:13] [Server thread/INFO]: Starting Minecraft server on *:25565
+[12:03:13] [Server thread/INFO]: Using epoll channel type
+[12:03:13] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12:03:13] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[12:03:13] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[12:03:13] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[12:03:13] [Server thread/INFO]: Preparing level "world"
+[12:03:19] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[12:03:23] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[12:03:23] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[12:03:23] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[12:03:23] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[12:03:23] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[12:03:23] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[12:03:23] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[12:03:23] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[12:03:23] [Server thread/INFO]: Time elapsed: 3903 ms
+[12:03:23] [Server thread/INFO]: Done (9.476s)! For help, type "help"
+[12:03:23] [Server thread/INFO]: [Dynamic Lights] Sending global config to world ...
+[12:03:23] [Server thread/INFO]: Loaded null for service interface journeymap.api.services.WebMapService
+[12:03:23] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricClientHooks@7c4c5dc for service interface journeymap.api.services.ClientPlatformService
+[12:03:23] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricHooks@46ff83a7 for service interface journeymap.api.services.CommonPlatformService
+[12:03:23] [Server thread/INFO]: global (FirstLoaded) Setting config file to version "6.0.0-beta.41": journeymap.server.global.config
+[12:03:23] [Server thread/INFO]: global (Valid) Creating config file: journeymap/server/6.0/journeymap.server.global.config
+[12:03:23] [Server thread/INFO]: default (FirstLoaded) Setting config file to version "6.0.0-beta.41": journeymap.server.default.config
+[12:03:23] [Server thread/INFO]: default (Valid) Creating config file: journeymap/server/6.0/journeymap.server.default.config
+[12:03:23] [Server thread/INFO]: minecraft~overworld (Valid) Creating config file: journeymap/server/6.0/journeymap.server.minecraft~overworld.config
+[12:03:23] [Server thread/INFO]: minecraft~the_nether (Valid) Creating config file: journeymap/server/6.0/journeymap.server.minecraft~the_nether.config
+[12:03:23] [Server thread/INFO]: minecraft~the_end (Valid) Creating config file: journeymap/server/6.0/journeymap.server.minecraft~the_end.config
+[12:03:28] [Server thread/INFO]: Its_Isaias58[/127.20.176.189:52785] logged in with entity id 61 at (-19.795562281041043, 120.0, 3.652278602126625)
+[12:03:28] [Server thread/INFO]: Loading config from file...
+[12:03:28] [Server thread/INFO]: Its_Isaias58 joined the game
+[12:03:58] [Server thread/INFO]: Its_Isaias58 lost connection: Timed out
+[12:03:58] [Server thread/INFO]: Its_Isaias58 left the game
+[12:03:58] [Server thread/WARN]: handleDisconnection() called twice
+[12:04:24] [Server thread/INFO]: Its_Isaias58[/127.20.176.189:53411] logged in with entity id 1181 at (-20.269842009569008, 120.0, 2.872693521814251)
+[12:04:24] [Server thread/INFO]: Loading config from file...
+[12:04:24] [Server thread/INFO]: Its_Isaias58 joined the game
+[12:06:07] [Server thread/INFO]: Its_Isaias58 has made the advancement [Getting an Upgrade]
+[12:07:03] [Server thread/INFO]: Its_Isaias58 has made the advancement [Monster Hunter]
+[12:11:21] [Server thread/INFO]: Its_Isaias58 has made the advancement [Sneak 100]
+[12:11:55] [Server thread/INFO]: Its_Isaias58 lost connection: Timed out
+[12:11:55] [Server thread/INFO]: Its_Isaias58 left the game
