@@ -1,0 +1,166 @@
+[11:21:14] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.16.3
+[11:21:14] [main/WARN]: Warnings were found!
+ - Mod 'Dynamic Lights' (dynamiclights) 1.8.6+mod recommends any version of modmenu, which is missing!
+	 - You should install any version of modmenu for the optimal experience.
+ - Mod 'Dynamic Lights' (dynamiclights) 1.8.6+mod recommends any version of modmenu-badges-lib, which is missing!
+	 - You should install any version of modmenu-badges-lib for the optimal experience.
+[11:21:14] [main/INFO]: Loading 66 mods:
+	- amplified_nether 1.2.8
+	- balm 21.0.46
+	   \-- kuma_api 21.0.5
+	- cardinal-components 6.1.2
+	   |-- cardinal-components-base 6.1.2
+	   |-- cardinal-components-block 6.1.2
+	   |-- cardinal-components-chunk 6.1.2
+	   |-- cardinal-components-entity 6.1.2
+	   |-- cardinal-components-item 6.1.2
+	   |-- cardinal-components-level 6.1.2
+	   |-- cardinal-components-scoreboard 6.1.2
+	   \-- cardinal-components-world 6.1.2
+	- cerbons_api 1.3.0
+	- cloth-config 15.0.140
+	   \-- cloth-basic-math 0.6.1
+	- collective 8.3
+	- dynamiclights 1.8.6+mod
+	- fabric-api 0.116.1+1.21.1
+	   |-- fabric-api-base 0.4.42+6573ed8c19
+	   |-- fabric-api-lookup-api-v1 1.6.71+b559734419
+	   |-- fabric-biome-api-v1 13.0.31+d527f9fd19
+	   |-- fabric-block-api-v1 1.1.0+0bc3503219
+	   |-- fabric-block-view-api-v2 1.0.11+ebb2264e19
+	   |-- fabric-blockrenderlayer-v1 1.1.52+0af3f5a719
+	   |-- fabric-client-tags-api-v1 1.1.15+6573ed8c19
+	   |-- fabric-command-api-v1 1.2.49+f71b366f19
+	   |-- fabric-command-api-v2 2.2.28+6ced4dd919
+	   |-- fabric-commands-v0 0.2.66+df3654b319
+	   |-- fabric-content-registries-v0 8.0.19+b559734419
+	   |-- fabric-convention-tags-v1 2.1.5+7f945d5b19
+	   |-- fabric-convention-tags-v2 2.11.1+a406e79519
+	   |-- fabric-crash-report-info-v1 0.2.29+0af3f5a719
+	   |-- fabric-data-attachment-api-v1 1.4.5+6116a37819
+	   |-- fabric-data-generation-api-v1 20.2.29+16c4ae2519
+	   |-- fabric-dimensions-v1 4.0.0+6fc22b9919
+	   |-- fabric-entity-events-v1 1.8.0+2b27e0a419
+	   |-- fabric-events-interaction-v0 0.7.13+ba9dae0619
+	   |-- fabric-game-rule-api-v1 1.0.53+6ced4dd919
+	   |-- fabric-item-api-v1 11.1.1+d5debaed19
+	   |-- fabric-item-group-api-v1 4.1.7+def88e3a19
+	   |-- fabric-key-binding-api-v1 1.0.47+0af3f5a719
+	   |-- fabric-keybindings-v0 0.2.45+df3654b319
+	   |-- fabric-lifecycle-events-v1 2.6.0+0865547519
+	   |-- fabric-loot-api-v2 3.0.15+3f89f5a519
+	   |-- fabric-loot-api-v3 1.0.3+3f89f5a519
+	   |-- fabric-message-api-v1 6.0.14+8aaf3aca19
+	   |-- fabric-model-loading-api-v1 2.0.0+fe474d6b19
+	   |-- fabric-networking-api-v1 4.3.0+c7469b2119
+	   |-- fabric-object-builder-api-v1 15.2.1+40875a9319
+	   |-- fabric-particles-v1 4.0.2+6573ed8c19
+	   |-- fabric-recipe-api-v1 5.0.14+248df81c19
+	   |-- fabric-registry-sync-v0 5.2.0+34f5d91419
+	   |-- fabric-renderer-api-v1 3.4.0+c705a49c19
+	   |-- fabric-renderer-indigo 1.7.0+c705a49c19
+	   |-- fabric-renderer-registries-v1 3.2.68+df3654b319
+	   |-- fabric-rendering-data-attachment-v1 0.3.49+73761d2e19
+	   |-- fabric-rendering-fluids-v1 3.1.6+1daea21519
+	   |-- fabric-rendering-v0 1.1.71+df3654b319
+	   |-- fabric-rendering-v1 5.0.5+df16efd019
+	   |-- fabric-resource-conditions-api-v1 4.3.0+8dc279b119
+	   |-- fabric-resource-loader-v0 1.3.1+5b5275af19
+	   |-- fabric-screen-api-v1 2.0.25+8b68f1c719
+	   |-- fabric-screen-handler-api-v1 1.3.88+b559734419
+	   |-- fabric-sound-api-v1 1.0.23+6573ed8c19
+	   |-- fabric-transfer-api-v1 5.4.3+c24bd99419
+	   \-- fabric-transitive-access-wideners-v1 6.2.0+45b9699719
+	- fabricloader 0.16.3
+	   \-- mixinextras 0.4.1
+	- healingcampfire 6.2
+	- java 21
+	- just_enough_beacons 1.3.0
+	   \-- mixinextras 0.4.1
+	- midnightlib 1.6.9
+	- minecraft 1.21.1
+	- mr_dungeons_andtaverns 1-v4.4.4
+	- simpleresourceloader 1.0.0+1.21.1
+	- stackrefill 4.7
+	- trashslot 21.1.4
+	- travelersbackpack 10.1.22
+[11:21:14] [main/WARN]: Found 1 non-fabric mod:
+	- advancednetherite-forge-2.2.1-1.21.1.jar
+[11:21:14] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/Minecraft-Sever/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[11:21:15] [main/INFO]: Compatibility level set to JAVA_17
+[11:21:15] [main/INFO]: Compatibility level set to JAVA_21
+[11:21:15] [main/WARN]: Reference map 'trashslot.refmap.json' for trashslot.mixins.json could not be read. If this is a development environment you can ignore this message
+[11:21:15] [main/WARN]: Reference map 'trashslot.refmap.json' for trashslot.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[11:21:15] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[11:21:23] [main/INFO]: Registering packet cerbons_api:multipart_entity_interaction : class com.cerbon.cerbons_api.packet.custom.MultipartEntityInteractionC2SPacket on the: SERVER
+[11:21:23] [main/INFO]: Loading Collective version 8.3.
+[11:21:23] [main/INFO]: [Dynamic Lights] MidnightLib detected!
+[11:21:23] [main/INFO]: [Dynamic Lights] Registering server started event ...
+[11:21:23] [main/INFO]: [Dynamic Lights] Loaded Dynamic Lights by Tschipcraft successfully!
+[11:21:23] [main/ERROR]: No data fixer registered for 
+[11:21:23] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 81000) with the ID 0
+[11:21:23] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 81000) with the ID 1
+[11:21:23] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for block.travelersbackpack.potion_still (Fluid Amount Required: 27000) with the ID 2
+[11:21:23] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:milk for Air (Fluid Amount Required: 81000) with the ID 3
+[11:21:23] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[11:21:24] [main/INFO]: Found new data pack amplified_nether, loading it automatically
+[11:21:24] [main/INFO]: Found new data pack balm, loading it automatically
+[11:21:24] [main/INFO]: Found new data pack collective, loading it automatically
+[11:21:24] [main/INFO]: Found new data pack dynamiclights, loading it automatically
+[11:21:24] [main/INFO]: Found new data pack fabric, loading it automatically
+[11:21:24] [main/INFO]: Found new data pack fabric-convention-tags-v2, loading it automatically
+[11:21:24] [main/INFO]: Found new data pack mr_dungeons_andtaverns, loading it automatically
+[11:21:24] [main/INFO]: Found new data pack travelersbackpack, loading it automatically
+[11:21:25] [main/INFO]: Loaded 1426 recipes
+[11:21:26] [main/ERROR]: Couldn't load advancements: [minecraft:wander_add_map, minecraft:give_quest_trader_trade]
+[11:21:26] [main/INFO]: Loaded 1571 advancements
+[11:21:26] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 1.051 ms
+[11:21:26] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[11:21:26] [Server thread/INFO]: Loading properties
+[11:21:26] [Server thread/INFO]: Default game type: SURVIVAL
+[11:21:26] [Server thread/INFO]: Generating keypair
+[11:21:26] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:21:26] [Server thread/INFO]: Using epoll channel type
+[11:21:26] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[11:21:26] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[11:21:26] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[11:21:26] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[11:21:26] [Server thread/INFO]: Preparing level "world"
+[11:21:34] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[11:21:34] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:21:34] [Worker-Main-3/INFO]: Preparing spawn area: 51%
+[11:21:34] [Server thread/INFO]: Time elapsed: 594 ms
+[11:21:34] [Server thread/INFO]: Done (7.984s)! For help, type "help"
+[11:21:34] [Server thread/INFO]: [Dynamic Lights] Sending global config to world ...
+[11:21:34] [Server thread/INFO]: Created new objective [ts.dl.settings]
+[11:21:46] [Server thread/INFO]: Its_Isaias58[/127.20.176.189:37655] logged in with entity id 61 at (-2.699999988079071, 115.0, 12.688973017083246)
+[11:21:46] [Server thread/INFO]: Loading config from file...
+[11:21:46] [Server thread/INFO]: Its_Isaias58 joined the game
+[11:23:16] [Server thread/INFO]: Its_Isaias58 lost connection: Disconnected
+[11:23:16] [Server thread/INFO]: Its_Isaias58 left the game
+[11:23:16] [Server thread/WARN]: handleDisconnection() called twice
+[11:23:41] [Server thread/INFO]: Its_Isaias58[/127.20.176.189:36955] logged in with entity id 1335 at (-4.140930765279362, 117.0, 8.46147067908472)
+[11:23:41] [Server thread/INFO]: Loading config from file...
+[11:23:41] [Server thread/INFO]: Its_Isaias58 joined the game
+[11:25:04] [Worker-Main-2/ERROR]: Block-attached entity at invalid position: class_2338{x=202, y=47, z=211}
+[11:25:24] [Worker-Main-2/ERROR]: Block-attached entity at invalid position: class_2338{x=216, y=47, z=211}
+[11:25:24] [Server thread/WARN]: Its_Isaias58 moved too quickly! -9.783960503569729,1.0,2.6001550933762942
+[11:25:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6417ms or 128 ticks behind
+[11:26:04] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=217, y=48, z=159}
+[11:26:56] [Server thread/INFO]: Its_Isaias58 lost connection: Timed out
+[11:26:56] [Server thread/INFO]: Its_Isaias58 left the game
+[11:27:13] [Server thread/INFO]: Its_Isaias58[/127.20.176.189:47437] logged in with entity id 4314 at (-59.144805970837226, 119.0, -1.1525776992522538)
+[11:27:13] [Server thread/INFO]: Loading config from file...
+[11:27:13] [Server thread/INFO]: Its_Isaias58 joined the game
+[11:27:53] [Server thread/INFO]: Its_Isaias58 has made the advancement [Stone Age]
+[11:28:52] [Server thread/INFO]: [Its_Isaias58: Stopping the server]
+[11:28:52] [Server thread/INFO]: Stopping server
+[11:28:52] [Server thread/INFO]: Saving players
+[11:28:52] [Server thread/INFO]: Saving worlds
+[11:28:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[11:28:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[11:28:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[11:28:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[11:28:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11:28:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11:28:54] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
